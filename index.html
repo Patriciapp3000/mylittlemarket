@@ -8,52 +8,235 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <link rel="icon" type="img-icon" href="favicon.ico">
 </head>
-<header> 
-    <nav>
-        <div class="logo">My Little Market</div>
-        <div class="search-container">
-            <input type="text" placeholder="Buscar" class="search-input">
-            <button class="search-button">Buscar</button>
-        </div>
-        <ul>
-            <li><a href="" >CATEGORIAS</a></li>
-            <li><a href="" >EXPLORAR NEGOCIOS</a></li>
-            <li><a href="" >MISION</a></li>
-            <a href="" class="buttoncom"><button>COMENZAR</button></a>
-        </ul>
-    </nav>
+<header>
+    <div class="container">
+        <img class="logo" src="logo_2.ico" width="auto"; height="auto" alt="myletras">
+        <nav class="nav-desk">
+            
+            <ul>
+                <li><a href="#" >CATEGORIAS</a></li>
+                <li><a href="#" >EXPLORAR NEGOCIOS</a></li>
+                <li><a href="#" >MISION</a></li>
+    <form class="form">
+        <label for="search">
+            <input class="input" type="text" required="" placeholder="Search" id="search">
+            <div class="fancy-bg"></div>
+            <div class="search">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="r-14j79pv r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-4wgw6l r-f727ji r-bnwqim r-1plcrui r-lrvibr">
+                    <g>
+                        <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                    </g>
+                </svg>
+            </div>
+            <button class="close-btn" type="reset">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+            </button>
+        </label>
+    </form>
+            </ul>
+        </nav>
+        <nav class="nav-mobile">
+            <ul>
+                <li><a href="#" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M500.3 7.3C507.7 13.3 512 22.4 512 32l0 144c0 26.5-28.7 48-64 48s-64-21.5-64-48s28.7-48 64-48l0-57L352 90.2 352 208c0 26.5-28.7 48-64 48s-64-21.5-64-48s28.7-48 64-48l0-96c0-15.3 10.8-28.4 25.7-31.4l160-32c9.4-1.9 19.1 .6 26.6 6.6zM74.7 304l11.8-17.8c5.9-8.9 15.9-14.2 26.6-14.2l61.7 0c10.7 0 20.7 5.3 26.6 14.2L213.3 304l26.7 0c26.5 0 48 21.5 48 48l0 112c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48L0 352c0-26.5 21.5-48 48-48l26.7 0zM192 408a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM478.7 278.3L440.3 368l55.7 0c6.7 0 12.6 4.1 15 10.4s.6 13.3-4.4 17.7l-128 112c-5.6 4.9-13.9 5.3-19.9 .9s-8.2-12.4-5.3-19.2L391.7 400 336 400c-6.7 0-12.6-4.1-15-10.4s-.6-13.3 4.4-17.7l128-112c5.6-4.9 13.9-5.3 19.9-.9s8.2 12.4 5.3 19.2zm-339-59.2c-6.5 6.5-17 6.5-23 0L19.9 119.2c-28-29-26.5-76.9 5-103.9c27-23.5 68.4-19 93.4 6.5l10 10.5 9.5-10.5c25-25.5 65.9-30 93.9-6.5c31 27 32.5 74.9 4.5 103.9l-96.4 99.9z"/></svg></a></li>
+                <li><a href="#" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M512 256c0 141.2-114.7 256-256 256C114.8 512 0 397.3 0 256S114.7 0 256 0s256 114.7 256 256zm-32 0c0-123.2-100.3-224-224-224C132.5 32 32 132.5 32 256s100.5 224 224 224 224-100.5 224-224zM160.9 124.6l86.9 37.1-37.1 86.9-86.9-37.1 37.1-86.9zm110 169.1l46.6 94h-14.6l-50-100-48.9 100h-14l51.1-106.9-22.3-9.4 6-14 68.6 29.1-6 14.3-16.5-7.1zm-11.8-116.3l68.6 29.4-29.4 68.3L230 246l29.1-68.6zm80.3 42.9l54.6 23.1-23.4 54.3-54.3-23.1 23.1-54.3z"/></svg></a></li>
+                <li><a href="#" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M448 256A192 192 0 1 0 64 256a192 192 0 1 0 384 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 80a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm0-224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zM224 256a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/></svg></a></li>
+    
+            </ul>
+            
+        </nav>
+    </div> 
+    <form class="form form-mobile">
+        <label for="search">
+            <input class="input" type="text" required="" placeholder="Search" id="search">
+            <div class="fancy-bg"></div>
+            <div class="search">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="r-14j79pv r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-4wgw6l r-f727ji r-bnwqim r-1plcrui r-lrvibr">
+                    <g>
+                        <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                    </g>
+                </svg>
+            </div>
+            <button class="close-btn" type="reset">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+            </button>
+        </label>
+    </form>
 </header>
 
     <section class="banner">
-        <h1>¡Promueve Tu Emprendimiento Ahora!</h1>
+        <div class="banner__text">
+            <h1>¡Promueve Tu Emprendimiento Ahora!</h1>
         <a href=https://forms.gle/R6Rtn51wVk1WqmDdA class="button">Comienza ahora</a>
+        </div>
+        
     </section>
 
-    <section class="negocios">
+    <section class="negocios container">
         <h2>EXPLORA MAS NEGOCIOS</h2>
         <div class="negocios-grid">
-            <a href="page.html">
-                <div class="negocio-card">
-                    <img src="store.png"  width="200px"; height="200px" alt="Negocio 1">
+            <div class="negocio-card">
+                <a href="page1.html"></a>
+                <img src="store.JPG"  width="200px"; height="200px" alt="Negocio 1">
+                <div class="negocio-card__text">
                     <h3>NOMBRE</h3>
-                    <p>Tel: +591 7070707</p>
-                    <p>descripcion basica del negocio, infomacion y cosas basicas.</p>
+                    <p class="phone">Tel: +591 7070707</p>
+                    <p class="description">descripcion basica del negocio, infomacion y cosas basicas.</p>
+                    <div class="categories">
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                    </div>
                     <a href="" >Contacto</a>
                 </div>
-            </a>
-           
-
-            <div class="negocio-card">
-                <img src="store.png" width="200px"; height="200px" alt="Negocio 2">
-                <h3>NOMBRE</h3>
-                <p>Tel: +591 7070707</p>
-                <p>descripcion basica del negocio, infomacion y otros datos.</p>
-                <a href="" >Contacto</a>
+                
+            </div><div class="negocio-card">
+                <a href="page1.html"></a>
+                <img src="store.JPG"  width="200px"; height="200px" alt="Negocio 1">
+                <div class="negocio-card__text">
+                    <h3>NOMBRE</h3>
+                    <p class="phone">Tel: +591 7070707</p>
+                    <p class="description">descripcion basica del negocio, infomacion y cosas basicas.</p>
+                    <div class="categories">
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                    </div>
+                    <a href="" >Contacto</a>
+                </div>
+                
+            </div><div class="negocio-card">
+                <a href="page1.html"></a>
+                <img src="store.JPG"  width="200px"; height="200px" alt="Negocio 1">
+                <div class="negocio-card__text">
+                    <h3>NOMBRE</h3>
+                    <p class="phone">Tel: +591 7070707</p>
+                    <p class="description">descripcion basica del negocio, infomacion y cosas basicas.</p>
+                    <div class="categories">
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                    </div>
+                    <a href="" >Contacto</a>
+                </div>
+                
+            </div><div class="negocio-card">
+                <a href="page1.html"></a>
+                <img src="store.JPG"  width="200px"; height="200px" alt="Negocio 1">
+                <div class="negocio-card__text">
+                    <h3>NOMBRE</h3>
+                    <p class="phone">Tel: +591 7070707</p>
+                    <p class="description">descripcion basica del negocio, infomacion y cosas basicas.</p>
+                    <div class="categories">
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                    </div>
+                    <a href="" >Contacto</a>
+                </div>
+                
+            </div><div class="negocio-card">
+                <a href="page1.html"></a>
+                <img src="store.JPG"  width="200px"; height="200px" alt="Negocio 1">
+                <div class="negocio-card__text">
+                    <h3>NOMBRE</h3>
+                    <p class="phone">Tel: +591 7070707</p>
+                    <p class="description">descripcion basica del negocio, infomacion y cosas basicas.</p>
+                    <div class="categories">
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                    </div>
+                    <a href="" >Contacto</a>
+                </div>
+                
+            </div><div class="negocio-card">
+                <a href="page1.html"></a>
+                <img src="store.JPG"  width="200px"; height="200px" alt="Negocio 1">
+                <div class="negocio-card__text">
+                    <h3>NOMBRE</h3>
+                    <p class="phone">Tel: +591 7070707</p>
+                    <p class="description">descripcion basica del negocio, infomacion y cosas basicas.</p>
+                    <div class="categories">
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                    </div>
+                    <a href="" >Contacto</a>
+                </div>
+                
+            </div><div class="negocio-card">
+                <a href="page1.html"></a>
+                <img src="store.JPG"  width="200px"; height="200px" alt="Negocio 1">
+                <div class="negocio-card__text">
+                    <h3>NOMBRE</h3>
+                    <p class="phone">Tel: +591 7070707</p>
+                    <p class="description">descripcion basica del negocio, infomacion y cosas basicas.</p>
+                    <div class="categories">
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                    </div>
+                    <a href="" >Contacto</a>
+                </div>
+                
+            </div><div class="negocio-card">
+                <a href="page1.html"></a>
+                <img src="store.JPG"  width="200px"; height="200px" alt="Negocio 1">
+                <div class="negocio-card__text">
+                    <h3>NOMBRE</h3>
+                    <p class="phone">Tel: +591 7070707</p>
+                    <p class="description">descripcion basica del negocio, infomacion y cosas basicas.</p>
+                    <div class="categories">
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                    </div>
+                    <a href="" >Contacto</a>
+                </div>
+                
+            </div><div class="negocio-card">
+                <a href="page1.html"></a>
+                <img src="store.JPG"  width="200px"; height="200px" alt="Negocio 1">
+                <div class="negocio-card__text">
+                    <h3>NOMBRE</h3>
+                    <p class="phone">Tel: +591 7070707</p>
+                    <p class="description">descripcion basica del negocio, infomacion y cosas basicas.</p>
+                    <div class="categories">
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                    </div>
+                    <a href="" >Contacto</a>
+                </div>
+                
+            </div><div class="negocio-card">
+                <a href="page1.html"></a>
+                <img src="store.JPG"  width="200px"; height="200px" alt="Negocio 1">
+                <div class="negocio-card__text">
+                    <h3>NOMBRE</h3>
+                    <p class="phone">Tel: +591 7070707</p>
+                    <p class="description">descripcion basica del negocio, infomacion y cosas basicas.</p>
+                    <div class="categories">
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                        <span>Categoria</span>
+                    </div>
+                    <a href="" >Contacto</a>
+                </div>
+                
             </div>
         </div>
     </section>
     <footer>
+        <p>MyLittleMarket@gmail.com</p>
+        <div class="copy" >
+            <span>Hecho con ❤️ My Little Market</span></div>
     </footer>
 </body>
 </html>

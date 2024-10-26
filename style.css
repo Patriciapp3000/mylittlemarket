@@ -1,0 +1,98 @@
+.afacad> {
+    font-family: "Afacad", sans-serif;
+    font-size: 25px;
+    font-weight: weight 30px;
+    font-style: normal;
+  }  
+
+body {
+    font-family: "Afacad", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E1D3C1;
+}
+
+nav {
+    background-color: #A4A4A4;
+    padding: 14px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.buttoncom {
+    padding: 10px 20px;
+    background-color: #A4A4A4;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+nav ul li a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: #f4f4f4;
+    padding: 200px;
+    text-align: center;
+    background-image: url('banner.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.banner h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+.button {
+    padding: 12px 24px;
+    background-color: #A4A4A4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.negocios {
+    padding: 32px;
+    text-align: left;
+    color: #012A4A;
+}
+
+.negocios-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.negocio-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.negocio-card img {
+    width: 480;
+    height: 310;
+}
+
+footer {
+    background-color: #333;
+    padding: 30px;
+}
